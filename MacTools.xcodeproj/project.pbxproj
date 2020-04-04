@@ -3,17 +3,29 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A2DF46FB654CB7BCCCEA96D7 /* Pods_MacTools.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7C92595F8C90EE000999886 /* Pods_MacTools.framework */; };
+		BF65D9102436453E0060162B /* MTMenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF65D90E2436453E0060162B /* MTMenuItem.swift */; };
+		BF65D9112436453E0060162B /* MTMenuItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF65D90F2436453E0060162B /* MTMenuItem.xib */; };
+		BFC704472438A7C000AD2443 /* MTScheduleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC704462438A7BF00AD2443 /* MTScheduleVC.swift */; };
+		BFC7044D2438B53F00AD2443 /* MTJsonVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC7044C2438B53F00AD2443 /* MTJsonVC.swift */; };
 		BFD444E2242F3A41001F9125 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD444E1242F3A41001F9125 /* AppDelegate.swift */; };
 		BFD444E4242F3A41001F9125 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD444E3242F3A41001F9125 /* ViewController.swift */; };
 		BFD444E6242F3A44001F9125 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFD444E5242F3A44001F9125 /* Assets.xcassets */; };
 		BFD444E9242F3A44001F9125 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFD444E7242F3A44001F9125 /* Main.storyboard */; };
+		BFEE60BD242FA94800DADF16 /* Dictionary+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEE60BC242FA94800DADF16 /* Dictionary+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0AAD8DDCE83BDB88CE7ABF12 /* Pods-MacTools.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MacTools.release.xcconfig"; path = "Target Support Files/Pods-MacTools/Pods-MacTools.release.xcconfig"; sourceTree = "<group>"; };
+		920E6B699F6B2CA19E7B7514 /* Pods-MacTools.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MacTools.debug.xcconfig"; path = "Target Support Files/Pods-MacTools/Pods-MacTools.debug.xcconfig"; sourceTree = "<group>"; };
+		BF65D90E2436453E0060162B /* MTMenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTMenuItem.swift; sourceTree = "<group>"; };
+		BF65D90F2436453E0060162B /* MTMenuItem.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MTMenuItem.xib; sourceTree = "<group>"; };
+		BFC704462438A7BF00AD2443 /* MTScheduleVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTScheduleVC.swift; sourceTree = "<group>"; };
+		BFC7044C2438B53F00AD2443 /* MTJsonVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTJsonVC.swift; sourceTree = "<group>"; };
 		BFD444DE242F3A41001F9125 /* MacTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFD444E1242F3A41001F9125 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BFD444E3242F3A41001F9125 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -21,6 +33,8 @@
 		BFD444E8242F3A44001F9125 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BFD444EA242F3A44001F9125 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BFD444EB242F3A44001F9125 /* MacTools.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MacTools.entitlements; sourceTree = "<group>"; };
+		BFEE60BC242FA94800DADF16 /* Dictionary+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dictionary+Extension.swift"; sourceTree = "<group>"; };
+		D7C92595F8C90EE000999886 /* Pods_MacTools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MacTools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -28,17 +42,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2DF46FB654CB7BCCCEA96D7 /* Pods_MacTools.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B0A55200D40BC35859A6B534 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D7C92595F8C90EE000999886 /* Pods_MacTools.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BFD444D5242F3A41001F9125 = {
 			isa = PBXGroup;
 			children = (
 				BFD444E0242F3A41001F9125 /* MacTools */,
 				BFD444DF242F3A41001F9125 /* Products */,
+				ED07AF836247BAA8848C2099 /* Pods */,
+				B0A55200D40BC35859A6B534 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -53,14 +78,36 @@
 		BFD444E0242F3A41001F9125 /* MacTools */ = {
 			isa = PBXGroup;
 			children = (
+				BFEE60B9242FA5C900DADF16 /* Extension */,
 				BFD444E1242F3A41001F9125 /* AppDelegate.swift */,
 				BFD444E3242F3A41001F9125 /* ViewController.swift */,
 				BFD444E5242F3A44001F9125 /* Assets.xcassets */,
 				BFD444E7242F3A44001F9125 /* Main.storyboard */,
 				BFD444EA242F3A44001F9125 /* Info.plist */,
 				BFD444EB242F3A44001F9125 /* MacTools.entitlements */,
+				BF65D90E2436453E0060162B /* MTMenuItem.swift */,
+				BF65D90F2436453E0060162B /* MTMenuItem.xib */,
+				BFC704462438A7BF00AD2443 /* MTScheduleVC.swift */,
+				BFC7044C2438B53F00AD2443 /* MTJsonVC.swift */,
 			);
 			path = MacTools;
+			sourceTree = "<group>";
+		};
+		BFEE60B9242FA5C900DADF16 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				BFEE60BC242FA94800DADF16 /* Dictionary+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		ED07AF836247BAA8848C2099 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				920E6B699F6B2CA19E7B7514 /* Pods-MacTools.debug.xcconfig */,
+				0AAD8DDCE83BDB88CE7ABF12 /* Pods-MacTools.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -70,9 +117,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BFD444EE242F3A44001F9125 /* Build configuration list for PBXNativeTarget "MacTools" */;
 			buildPhases = (
+				23226F2C2F5271B42C72053F /* [CP] Check Pods Manifest.lock */,
 				BFD444DA242F3A41001F9125 /* Sources */,
 				BFD444DB242F3A41001F9125 /* Frameworks */,
 				BFD444DC242F3A41001F9125 /* Resources */,
+				74A655D74F3DE70EDBCCB3D1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -121,12 +170,55 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF65D9112436453E0060162B /* MTMenuItem.xib in Resources */,
 				BFD444E6242F3A44001F9125 /* Assets.xcassets in Resources */,
 				BFD444E9242F3A44001F9125 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		23226F2C2F5271B42C72053F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MacTools-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		74A655D74F3DE70EDBCCB3D1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MacTools/Pods-MacTools-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MacTools/Pods-MacTools-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MacTools/Pods-MacTools-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BFD444DA242F3A41001F9125 /* Sources */ = {
@@ -135,6 +227,10 @@
 			files = (
 				BFD444E4242F3A41001F9125 /* ViewController.swift in Sources */,
 				BFD444E2242F3A41001F9125 /* AppDelegate.swift in Sources */,
+				BFEE60BD242FA94800DADF16 /* Dictionary+Extension.swift in Sources */,
+				BF65D9102436453E0060162B /* MTMenuItem.swift in Sources */,
+				BFC704472438A7C000AD2443 /* MTScheduleVC.swift in Sources */,
+				BFC7044D2438B53F00AD2443 /* MTJsonVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,6 +363,7 @@
 		};
 		BFD444EF242F3A44001F9125 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 920E6B699F6B2CA19E7B7514 /* Pods-MacTools.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = MacTools/MacTools.entitlements;
@@ -287,6 +384,7 @@
 		};
 		BFD444F0242F3A44001F9125 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0AAD8DDCE83BDB88CE7ABF12 /* Pods-MacTools.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = MacTools/MacTools.entitlements;
